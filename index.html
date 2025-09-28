@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pledge - современное решение для вашего бизнеса">
+    
+    <!-- Preload важных ресурсов -->
+    <link rel="preload" href="files/LOGO3D_REMAKEFORSITE_4SEC.mp4" as="video" type="video/mp4">
+    <link rel="preload" href="files/LOGO-FULLSCREEN-PNG.png" as="image" type="image/png">
+    
+    <link rel="shortcut icon" href="LOGOTYPE CREDITCARD PNG.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pledge - Главная страница</title>
+</head>
+
+<body>
+    <div class="page">
+        <!-- Секция с видео -->
+        <section class="video-section" aria-label="Фоновое видео с логотипом">
+            <div class="video-container">
+                <video 
+                    autoplay 
+                    muted 
+                    loop 
+                    playsinline 
+                    class="video-section__media"
+                    aria-hidden="true"
+                    preload="metadata"
+                >
+                    <source src="files/LOGO3D_REMAKEFORSITE_4SEC.mp4" type="video/mp4">
+                    Ваш браузер не поддерживает видео.
+                </video>
+                <div class="video-section__overlay" aria-hidden="true"></div>
+            </div>
+
+            <!-- Шапка -->
+            <header class="header" role="banner">
+                <div class="header__main">
+                    <img 
+                        src="files/LOGO-FULLSCREEN-PNG.png" 
+                        alt="Pledge - Логотип компании" 
+                        class="header__logo"
+                        width="130" 
+                        height="40"
+                    >
+                </div>
+            </header>
+            
+            <!-- Контент поверх видео -->
+            <div class="video-content">
+                <div class="info-cards">
+                    <article class="info-card" role="article">
+                        <h3 class="info-card__title">O T C O C 1</h3>
+                    </article>
+                    <article class="info-card" role="article">
+                        <h3 class="info-card__title">OTCOC@ 2</h3>
+                    </article>
+                    <article class="info-card" role="article">
+                        <h3 class="info-card__title">XYIVERT 3</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Основная контентная секция -->
+        <main class="main" role="main">
+            <section class="content-section" aria-labelledby="section-title">
+                <div class="container">
+                    <h1 id="section-title" class="content-section__title">Б А Б К А</h1>
+                    <p class="content-section__text">О Т С О С И &nbsp; &nbsp; М Н Е</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Подвал сайта -->
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="footer__content">
+                    <p>&copy; 2025 Pledge. Все права защищены.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
